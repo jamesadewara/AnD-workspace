@@ -1,3 +1,9 @@
 [submodule "AnD-task-a"]
 	path = AnD-task-a
 	url = https://github.com/jamesadewara/AnD-task-a.git
+[submodule "and-frontend"]
+	path = and-frontend
+	url = https://github.com/jamesadewara/and-frontend.git
+[submodule "AnD-task-b"]
+	path = AnD-task-b
+	url = https://github.com/jamesadewara/AnD-task-b.git
