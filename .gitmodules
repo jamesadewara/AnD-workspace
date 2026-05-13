@@ -1,0 +1,3 @@
+[submodule "AnD-task-a"]
+	path = AnD-task-a
+	url = https://github.com/jamesadewara/AnD-task-a.git
