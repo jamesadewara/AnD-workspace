@@ -7,3 +7,6 @@
 [submodule "AnD-task-b"]
 	path = AnD-task-b
 	url = https://github.com/jamesadewara/AnD-task-b.git
+[submodule "and-bruno-doc"]
+	path = and-bruno-doc
+	url = https://github.com/jamesadewara/and-bruno-doc.git

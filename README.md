@@ -8,11 +8,10 @@ AnD is a comprehensive AI ecosystem providing intelligent recommendations and se
 
 | Component | Description | Repository |
 |-----------|-------------|-----------|
-| **Recommendation System** | Core AI engine for personalized recommendations | [AnD-ai-recommendation-system](https://github.com/jamesadewara/AnD-ai-recommendation-system) |
-| **Auth System** | Identity and access management service | [AnD-ai-auth-system](https://github.com/jamesadewara/AnD-ai-auth-system) |
-| **Frontend** | User interface and client-side application | [AnD-ai-frontend](https://github.com/jamesadewara/AnD-ai-frontend) |
-| **Infrastructure as Code** | IaC for provisioning infrastructure resources | [AnD-iac](https://github.com/jamesadewara/AnD-iac) |
-| **API Documentation** | Bruno API collections and interactive documentation | [AnD-ai-bruno-api-doc](https://github.com/jamesadewara/AnD-ai-bruno-api-doc) |
+## Project Repositories
+* 📂 **[AnD Task A](https://github.com/jamesadewara/AnD-task-a)** - Backend/Task logic A.
+* 📂 **[AnD Task B](https://github.com/jamesadewara/AnD-task-b)** - Backend/Task logic B.
+* 💻 **[AnD Frontend](https://github.com/jamesadewara/AnD-frontend)** - Main user interface.
 
 ## Getting Started
 
@@ -65,14 +64,13 @@ git submodule update --remote --merge
 
 ```
 AnD-workspace/
-├── auth-system/              # Auth service submodule
-├── frontend/                 # Frontend application submodule
-├── recommendation-system/    # Recommendation engine submodule
-├── AnD-iac/                 # Infrastructure as Code submodule
-├── bruno-api-doc/            # API documentation submodule
+├── AnD-task-a/              # Reviews service submodule
+├── AnD-frontend/                 # Frontend application submodule
+├── AnD-task-b/    # Recommendation engine submodule
+├── AnD-bruno-doc/            # API documentation submodule
 └── README.md                 # This file
 ```
 
 ## License
 
-This project is licensed under the APACHE 2.0 License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
