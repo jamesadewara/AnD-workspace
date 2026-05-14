@@ -6,12 +6,12 @@ AnD is a comprehensive AI ecosystem providing intelligent recommendations and se
 
 ## Project Components
 
-| Component | Description | Repository |
-|-----------|-------------|-----------|
-## Project Repositories
-* 📂 **[AnD Task A](https://github.com/jamesadewara/AnD-task-a)** - Backend/Task logic A.
-* 📂 **[AnD Task B](https://github.com/jamesadewara/AnD-task-b)** - Backend/Task logic B.
-* 💻 **[AnD Frontend](https://github.com/jamesadewara/AnD-frontend)** - Main user interface.
+| Repository | Description | Link |
+|------------|-------------|------|
+| [**AnD-task-a**](AnD-task-a/) | **User Modeling Agent**: Simulates authentic Nigerian product reviews using a Probabilistic Rating Model (Price Shock). | [GitHub ↗](https://github.com/jamesadewara/AnD-task-a) |
+| [**AnD-task-b**](AnD-task-b/) | **Recommendation Agent**: Contextual, agentic ranking engine with location-aware boosting and cold-start logic. | [GitHub ↗](https://github.com/jamesadewara/AnD-task-b) |
+| [**and-frontend**](and-frontend/) | **Mobile-First Workspace**: Extreme-density UI with real-time reasoning observability (Agent Console). | [GitHub ↗](https://github.com/jamesadewara/and-frontend) |
+| [**and-bruno-doc**](and-bruno-doc/) | **API Documentation**: Comprehensive Bruno collections for instant reproducibility. | [GitHub ↗](https://github.com/jamesadewara/and-bruno-doc) |
 
 ## Getting Started
 
@@ -65,9 +65,10 @@ git submodule update --remote --merge
 ```
 AnD-workspace/
 ├── AnD-task-a/              # Reviews service submodule
-├── AnD-frontend/                 # Frontend application submodule
+├── and-frontend/                 # Frontend application submodule
 ├── AnD-task-b/    # Recommendation engine submodule
-├── AnD-bruno-doc/            # API documentation submodule
+├── and-bruno-doc/            # API documentation submodule
+├── AnD-data-cleaner/            # Data cleaning submodule
 └── README.md                 # This file
 ```
 
