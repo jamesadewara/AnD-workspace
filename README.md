@@ -166,7 +166,6 @@ Use the Bruno collections in [and-bruno-doc](and-bruno-doc/) for quick endpoint 
 ✅ **Resilient**: Multi-model failover (GLM-4.5 → Nemotron-3 → Gemma-4)  
 ✅ **Nigerian-Centric**: Deep cultural grounding in language, locations, and user archetypes  
 ✅ **Mobile-First**: Optimized for budget Android devices common in Nigeria  
-✅ **Compliant**: Zero external datasets, pure agentic reasoning
 
 ---
 
