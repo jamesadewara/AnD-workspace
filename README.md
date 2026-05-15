@@ -120,11 +120,9 @@ git submodule foreach "git checkout main 2>/dev/null || git checkout master 2>/d
 
 ### 3. Set Up Environment Variables
 Create `.env` files in each service directory. See individual README files:
-- [Task A Env Setup](AnD-task-a/README.md#1-environment-setup)
-- [Task B Env Setup](AnD-task-b/README.md#1-environment-setup)
+- [Task A Env Setup](AnD-task-a/README.md#1-environment-setup) [requires at least one OPENROUTER_API_KEYS]
+- [Task B Env Setup](AnD-task-b/README.md#1-environment-setup) [requires at least one OPENROUTER_API_KEYS]
 - [Frontend Env Setup](and-frontend/README.md#2-configure-environment)
-
-All services require `OPENROUTER_API_KEY`.
 
 ### 4. Run Services
 
